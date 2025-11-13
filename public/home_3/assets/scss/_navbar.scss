@@ -1,0 +1,103 @@
+/* --------------- navbar st3 --------------- */
+.tc-navbar-st3 {
+    position: absolute;
+    padding: 30px 4vw;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 90;
+    color: #191919;
+
+    .navbar-nav {
+        .navbar-brand {
+            .logo {
+                height: 30px;
+            }
+        }
+        .nav-link {
+            font-size: 16px;
+            margin: 0 15px;
+            font-weight: 500;
+            position: relative;
+            color: #191919;
+            &::before {
+                position: absolute;
+                content: "\f178";
+                font-family: "Font Awesome 6 pro";
+                left: 0;
+                top: 50%;
+                font-size: 10px;
+                transform: translate(-200%, -50%);
+                opacity: 0;
+                transition: all 0.3s ease;
+            }
+            &:hover,
+            &.active {
+                color: #fff;
+                &::before {
+                    opacity: 1;
+                    transform: translate(-100%, -50%);
+                }
+            }
+        }
+    }
+
+    .chat-btn {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        font-size: 16px;
+        border-radius: 50px;
+        padding: 5px 5px 5px 20px;
+        overflow: hidden;
+        &::after {
+            position: absolute;
+            content: "";
+            right: 0;
+            top: 0;
+            width: 0;
+            height: 100%;
+            background-color: #fff;
+            border-radius: 50px;
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+        .txt {
+            position: relative;
+            z-index: 5;
+        }
+        .arrow {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 1px solid #191919;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-inline-start: 10px;
+            flex-shrink: 0;
+            color: #191919;
+            font-size: 12px;
+            position: relative;
+            z-index: 5;
+        }
+
+        &:hover {
+            &::after {
+                opacity: 1;
+                width: 100%;
+            }
+            * {
+                color: #191919;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-navbar-st3 {
+        position: relative;
+        background-image: linear-gradient(to right , #FF9470, #FFB071);
+    }
+}

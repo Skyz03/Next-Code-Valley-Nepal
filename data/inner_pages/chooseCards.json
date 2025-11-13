@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "icon": "/inner_pages/assets/img/icons/ch1.svg",
+    "title": "Dedicated Service Solution",
+    "text": "Nullam vel metus mattis, vulputate sapien sit amet, luctus erat. Donec gravida sed mauris.",
+    "delay": "0.2s"
+  },
+  {
+    "id": 2,
+    "icon": "/inner_pages/assets/img/icons/ch2.svg",
+    "title": "Dedicated Testing Capabilities",
+    "text": "Nullam vel metus mattis, vulputate sapien sit amet, luctus erat. Donec gravida sed mauris.",
+    "delay": "0.4s"
+  },
+  {
+    "id": 3,
+    "icon": "/inner_pages/assets/img/icons/ch3.svg",
+    "title": "Speed Optimization",
+    "text": "Nullam vel metus mattis, vulputate sapien sit amet, luctus erat. Donec gravida sed mauris.",
+    "delay": "0.2s"
+  },
+  {
+    "id": 4,
+    "icon": "/inner_pages/assets/img/icons/ch4.svg",
+    "title": "Growing Your Business",
+    "text": "Nullam vel metus mattis, vulputate sapien sit amet, luctus erat. Donec gravida sed mauris.",
+    "delay": "0.4s"
+  }
+]

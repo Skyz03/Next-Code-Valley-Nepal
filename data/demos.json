@@ -1,0 +1,32 @@
+[
+  {
+    "link": "/home_2",
+    "img": "/landing_page/assets/img/demos/1.jpg",
+    "name": "Marketing Services"
+  },
+  {
+    "link": "/home_2",
+    "img": "/landing_page/assets/img/demos/2.jpg",
+    "name": "Professionals Research"
+  },
+  {
+    "link": "/home_3",
+    "img": "/landing_page/assets/img/demos/3.jpg",
+    "name": "Digital Marketing"
+  },
+  {
+    "link": "/home_4",
+    "img": "/landing_page/assets/img/demos/4.jpg",
+    "name": "SEO Agency"
+  },
+  {
+    "link": "/home_5",
+    "img": "/landing_page/assets/img/demos/5.jpg",
+    "name": "Marketing Strategy"
+  },
+  {
+    "link": "/home_4-rtl",
+    "img": "/landing_page/assets/img/demos/6.jpg",
+    "name": "SEO Agency RTL"
+  }
+]

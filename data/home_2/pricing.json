@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Regular Plan",
+    "price": "$0.96",
+    "description": "Monthly / Early",
+    "buttonClass": "bg-ln-orange1",
+    "buttonText": "Choose this Package"
+  },
+  {
+    "title": "Premium Plan",
+    "price": "$9.96",
+    "description": "Monthly / Early",
+    "buttonClass": "bg-ln-green1",
+    "buttonText": "Choose this Package"
+  },
+  {
+    "title": "Professional Plan",
+    "price": "$19.96",
+    "description": "Monthly / Early",
+    "buttonClass": "bg-ln-blue1",
+    "buttonText": "Choose this Package"
+  }
+]

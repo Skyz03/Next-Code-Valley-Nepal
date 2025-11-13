@@ -1,0 +1,51 @@
+{
+  "slider1": [
+    {
+      "img": "/landing_page/assets/img/icons/f1.svg",
+      "title": "Quality Demos",
+      "desc": "A strong, engaging statement that encapsulates"
+    },
+    {
+      "img": "/landing_page/assets/img/icons/newspaper.svg",
+      "title": " No Need Code Experience",
+      "desc": "A strong, engaging statement that encapsulates"
+    },
+    {
+      "img": "/landing_page/assets/img/icons/eraser-tool.svg",
+      "title": "Responsive Ready",
+      "desc": "A strong, engaging statement that encapsulates"
+    },
+    {
+      "img": "/landing_page/assets/img/icons/eye.svg",
+      "title": "Retina Ready Design",
+      "desc": "A strong, engaging statement that encapsulates"
+    }
+  ],
+  "slider2": [
+    {
+      "img": "/landing_page/assets/img/icons/flag.svg",
+      "title": "One-click Import",
+      "desc": "A strong, engaging statement that encapsulates"
+    },
+    {
+      "img": "/landing_page/assets/img/icons/settings.svg",
+      "title": "Top Performance",
+      "desc": "A strong, engaging statement that encapsulates"
+    },
+    {
+      "img": "/landing_page/assets/img/icons/settings2.svg",
+      "title": "Pixel Perfect Design",
+      "desc": "A strong, engaging statement that encapsulates"
+    },
+    {
+      "img": "/landing_page/assets/img/icons/pencil.svg",
+      "title": "Typography Options",
+      "desc": "A strong, engaging statement that encapsulates"
+    },
+    {
+      "img": "/landing_page/assets/img/icons/gallery.svg",
+      "title": "Mega Menu",
+      "desc": "A strong, engaging statement that encapsulates"
+    }
+  ]
+}

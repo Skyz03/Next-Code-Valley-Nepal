@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "/home_2/assets/img/partners/1.png",
+    "link": "#",
+    "delay": "0.2s"
+  },
+  {
+    "id": 2,
+    "image": "/home_2/assets/img/partners/2.png",
+    "link": "#",
+    "delay": "0.4s"
+  },
+  {
+    "id": 3,
+    "image": "/home_2/assets/img/partners/3.png",
+    "link": "#",
+    "delay": "0.6s"
+  },
+  {
+    "id": 4,
+    "image": "/home_2/assets/img/partners/4.png",
+    "link": "#",
+    "delay": "0.8s"
+  },
+  {
+    "id": 5,
+    "image": "/home_2/assets/img/partners/5.png",
+    "link": "#",
+    "delay": "1s"
+  }
+]

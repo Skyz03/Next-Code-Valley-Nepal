@@ -1,0 +1,107 @@
+/* --------------- footer st4 --------------- */
+.navs-st4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    padding: 0 4vw;
+}
+
+.tc-top-navbar-st4 {
+    padding: 15px 0;
+    .links {
+        display: flex;
+        align-items: center;
+        li {
+            margin-inline-end: 20px;
+            a {
+                width: 100%;
+                font-size: 16px;
+                text-transform: capitalize;
+                &:hover {
+                    color: var(--cr-orange1);
+                }
+            }
+        }
+    }
+    .top-nav-side {
+        .side-links {
+            display: flex;
+            align-items: center;
+            li {
+                margin-inline-start: 50px;
+                a {
+                    font-size: 16px;
+                    text-transform: capitalize;
+                    &:hover {
+                        color: var(--cr-orange1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.tc-navbar-st4 {
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 44px 44px 0px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    .navbar-brand {
+        height: 40px;
+    }
+    .navbar-nav {
+        .nav-link {
+            position: relative;
+            font-size: 16px;
+            font-weight: 600;
+            color: #191919;
+            margin: 0 15px;
+            transition: all 0.3s ease;
+            &:hover,
+            &.active {
+                color: var(--cr-orange1);
+                padding-inline-start: 20px;
+                .arrow {
+                    opacity: 1;
+                }
+            }
+            .arrow {
+                font-size: 13px;
+                opacity: 0;
+                position: absolute;
+                left: 0;
+                top: 12px;
+                transition: all 0.3s ease;
+            }
+        }
+    }
+    .side-nav {
+        display: flex;
+        align-items: center;
+        .social-links {
+            a {
+                margin-inline-start: 20px;
+                font-size: 16px;
+                &:hover {
+                    color: var(--cr-orange1);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navs-st4 {
+        padding: 15px 0;
+        .tc-top-navbar-st4 {
+            display: none;
+        }
+        .tc-navbar-st4 {
+            .navbar-nav {
+                margin: 20px 0;
+            }
+        }
+    }
+}

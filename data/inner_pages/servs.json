@@ -1,0 +1,34 @@
+{
+  "services": [
+    {
+      "icon": "/inner_pages/assets/img/icons/sr1.svg",
+      "title": "Marketing Research",
+      "description": "For marketing professionals research on."
+    },
+    {
+      "icon": "/inner_pages/assets/img/icons/sr2.svg",
+      "title": "Email & SMS Marketing",
+      "description": "For marketing provided do email and phone SMS."
+    },
+    {
+      "icon": "/inner_pages/assets/img/icons/sr3.svg",
+      "title": "Social Media Marketing",
+      "description": "For marketing professionals research online."
+    },
+    {
+      "icon": "/inner_pages/assets/img/icons/sr4.svg",
+      "title": "Marketing Research",
+      "description": "For marketing professionals research on."
+    },
+    {
+      "icon": "/inner_pages/assets/img/icons/sr5.svg",
+      "title": "Email & SMS Marketing",
+      "description": "For marketing provided do email and phone SMS."
+    },
+    {
+      "icon": "/inner_pages/assets/img/icons/sr6.svg",
+      "title": "Social Media Marketing",
+      "description": "For marketing professionals research online."
+    }
+  ]
+}

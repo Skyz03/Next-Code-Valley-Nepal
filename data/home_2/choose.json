@@ -1,0 +1,22 @@
+[
+  {
+    "img": "/home_1/assets/img/icons/ch1.svg",
+    "title": "Dedicated Service Solution",
+    "desc": "Nullam vel metus mattis, vulputate sapien sit amet, luctus erat. Donec gravida sed mauris."
+  },
+  {
+    "img": "/home_1/assets/img/icons/ch2.svg",
+    "title": "Dedicated Testing Capabilities",
+    "desc": "Nullam vel metus mattis, vulputate sapien sit amet, luctus erat. Donec gravida sed mauris."
+  },
+  {
+    "img": "/home_1/assets/img/icons/ch3.svg",
+    "title": "Speed Optimization",
+    "desc": "Nullam vel metus mattis, vulputate sapien sit amet, luctus erat. Donec gravida sed mauris."
+  },
+  {
+    "img": "/home_1/assets/img/icons/ch4.svg",
+    "title": "Growing Your Business",
+    "desc": "Nullam vel metus mattis, vulputate sapien sit amet, luctus erat. Donec gravida sed mauris."
+  }
+]

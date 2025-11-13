@@ -1,0 +1,489 @@
+.about-pg-st1 {
+
+    /* --------------- about pg st1 --------------- */
+    .tc-pg-about-st1 {
+        position: relative;
+        padding-bottom: 120px;
+    
+        .container {
+            position: relative;
+            z-index: 20;
+        }
+    
+        .img {
+            position: relative;
+            .main-img {
+                position: relative;
+                z-index: 10;
+            }
+        }
+    
+        .check-list {
+            font-size: 20px;
+            font-weight: bold;
+            li{
+                display: flex;
+                align-items: center;
+                margin: 15px 0;
+                color: #191919;
+                .icon {
+                    width: 50px;
+                    height: 50px;
+                    margin-inline-end: 15px;
+                    flex-shrink: 0;
+                }
+            }
+        }
+    
+        .icon-list {
+            font-size: 24px;
+            font-weight: bold;
+            li{
+                display: flex;
+                align-items: center;
+                margin: 30px 0;
+                color: #191919;
+                padding: 20px;
+                background-image: linear-gradient(124deg, #FF5F6D11 22.75%, #FFC37111 72.61%);
+                margin-inline-end: 110px;
+                &:nth-of-type(even){
+                    margin-inline-start: 110px;
+                    margin-inline-end: 0;
+                    background-image: linear-gradient(126deg, #08B25911 22.58%, #F3E51A11 73.54%);
+                }
+                .icon {
+                    width: 80px;
+                    height: 80px;
+                    margin-inline-end: 18px;
+                    flex-shrink: 0;
+                }
+            }
+        }
+    
+    }
+    
+    @media screen and (max-width: 991px) {
+        .tc-pg-about-st1 {
+            .clients-cards {
+                flex-wrap: wrap;
+                img {
+                    margin: 10px;
+                }
+            }
+            .marq-text h2 {
+                font-size: 60px;
+            }
+        }
+    }
+    
+    
+    /* --------------- service st1 --------------- */
+    .tc-pg-service-st1 {
+        position: relative;
+        padding-bottom: 75px;
+    
+        .services-cards {
+            position: relative;
+            background-color: #fff;
+            border-radius: 30px;
+            box-shadow: 0 94px 94px 0 rgba(0, 0, 0, 0.03);
+            padding-bottom: 50px;
+    
+            .service-card {
+                position: relative;
+                text-align: center;
+                padding: 50px;
+                .icon {
+                    height: 75px;
+                    width: 75px;
+                    margin: 0 auto 10px;
+                }
+                p {
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                }
+                .title {
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                }
+            }
+    
+            .btm-text {
+                position: relative;
+                margin: 0 50px;
+                text-align: center;
+                &::before {
+                    position: absolute;
+                    content: "";
+                    left: 0;
+                    top: 50%;
+                    width: 100%;
+                    height: 1px;
+                    background-color: #9993;
+                }
+                .text {
+                    font-size: 16px;
+                    padding: 10px 50px;
+                    background-color: #fff;
+                    position: relative;
+                    z-index: 10;
+                }
+            }
+    
+        }
+    
+        .bg {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            max-height: unset;
+            top: 0;
+        }
+    
+    }
+    
+    @media screen and (max-width: 991px) {
+        .tc-pg-service-st1 {
+    
+        }
+    }
+    
+    
+    /* --------------- team st2 --------------- */
+    .tc-pg-team-st1 {
+        position: relative;
+        padding: 75px 0;
+        // background-image: linear-gradient(to right, #FFF7F7, #FFFCF8);
+    
+        .cards {
+    
+            .row {
+                .col-lg-3 {
+                    &:nth-of-type(1){
+                        .team-card {
+                            .info {
+                                .social-icons {
+                                    background-image: var(--ln-orange1);
+                                    -webkit-background-clip: text;
+                                    -webkit-text-fill-color: transparent;
+                                }
+                            }
+                        }
+                    }
+                    &:nth-of-type(2){
+                        .team-card {
+                            .info {
+                                .social-icons {
+                                    background-image: var(--ln-green1);
+                                    -webkit-background-clip: text;
+                                    -webkit-text-fill-color: transparent;
+                                }
+                            }
+                        }
+                    }
+                    &:nth-of-type(3){
+                        .team-card {
+                            .info {
+                                .social-icons {
+                                    background-image: var(--ln-blue1);
+                                    -webkit-background-clip: text;
+                                    -webkit-text-fill-color: transparent;
+                                }
+                            }
+                        }
+                    }
+                    &:nth-of-type(4){
+                        .team-card {
+                            .info {
+                                .social-icons {
+                                    background-image: var(--ln-purple1);
+                                    -webkit-background-clip: text;
+                                    -webkit-text-fill-color: transparent;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .team-card {
+                position: relative;
+                border-radius: 30px;
+                overflow: hidden;
+                box-shadow: 0px 94px 94px 0px rgba(0, 0, 0, 0.05);
+                background-color: #fff;
+                .img {
+                    height: 350px;
+                    border-radius: 30px;
+                    overflow: hidden;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+                .info {
+                    padding: 25px;
+                    .social-icons {
+                        margin-top: 15px;
+                        background-image: var(--ln-orange1);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        a {
+                            font-size: 16px;
+                            font-weight: bold;
+                            margin-inline-end: 20px;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .clients-cards {
+            background-color: #fff;
+            border-radius: 30px;
+            box-shadow: 0 94px 94px 0 rgba(0, 0, 0, 0.03);
+            display: flex;
+            justify-content: space-between;
+            padding: 4vw;
+            margin-top: 130px;
+            img{
+                height: 50px;
+                width: 150px;
+                object-fit: contain;
+            }
+        }
+    
+        .line {
+            position: absolute;
+            left: 0;
+            bottom: -50px;
+            width: 100%;
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            transition: all 3s ease-in-out;
+            &.animated {
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            }
+        }
+    
+        .bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: calc(100% + 100px);
+            max-height: unset;
+            top: 0;
+            object-fit: cover;
+            object-position: bottom;
+        }
+    
+    }
+    
+    @media screen and (max-width: 991px) {
+        .tc-pg-team-st1 {
+            .cards {
+                .team-card {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+    
+    
+    /* --------------- testimonials st3 --------------- */
+    .tc-pg-testimonials-st1 {
+        position: relative;
+        padding: 75PX 0;
+        overflow: hidden;
+    
+        .shap {
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+    
+        .testimonials-slider {
+            position: relative;
+            z-index: 10;
+            padding-bottom: 100px;
+    
+            .swiper-slide {
+                .testi-card {
+                    opacity: 0.6;
+                    transform: scale(0.9);
+                }
+            }
+            .swiper-slide-active {
+                .testi-card {
+                    opacity: 1;
+                    transform: scale(1.1);
+                }
+            }
+    
+            .testi-card {
+                padding: 40px;
+                border-radius: 30px;
+                background: #FFF;
+                box-shadow: 0px 94px 94px 0px rgba(0, 0, 0, 0.03);
+                transition: all 0.5s ease;
+                .user-rate {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 30px;
+                    .icon {
+                        height: 30px;
+                        margin-inline-end: 20px;
+                        flex-shrink: 0;
+                    }
+                    .stars {
+                        color: var(--cr-orange1);
+                    }
+                    p {
+                        font-size: 16px;
+                        color: #5B5B5B;
+                        margin-bottom: 5px;
+                    }
+                }
+                .main-text {
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                    font-weight: 500;
+                }
+                .user-info {
+                    h6 {
+                        font-size: 24px;
+                        font-weight: bold;
+                        margin-bottom: 5px;
+                    }
+                    p {
+                        font-size: 16px;
+                        color: #5B5B5B;
+                    }
+                }
+            }
+    
+        } 
+    
+    }
+    
+    @media screen and (max-width: 991px) {
+        .tc-pg-testimonials-st1 {
+    
+        }
+    }
+    
+    
+    /* --------------- video st3 --------------- */
+    .tc-pg-video-st1 {
+        position: relative;
+        padding: 75px 0 0;
+    
+        .vid-img {
+            display: block;
+            width: 100%;
+            img {
+                display: block;
+                height: 100%;
+                width: 100%;
+            }
+        }
+    
+    }
+    
+    @media screen and (max-width: 991px) {
+        .tc-pg-video-st1 {
+    
+        }
+    }
+    
+    
+    /* --------------- choose st1 --------------- */
+    .tc-pg-choose-st1 {
+        position: relative;
+        padding: 120px 0;
+        background-image: url(../img/choose_bg.png);
+        background-size: cover;
+        background-position: bottom;
+    
+        .num-line {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            transition: all 3s ease-in-out;
+            &.animated {
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            }
+        }
+    
+        .choose-card {
+            display: block;
+            position: relative;
+            margin-bottom: 40px;
+            &:hover {
+                .arrow {
+                    color: var(--cr-orange1);
+                    &::before {
+                        background-color: var(--cr-orange1);
+                    }
+                }
+            }
+    
+            .icon {
+                height: 90px;
+                margin-bottom: 30px;
+            }
+    
+            .arrow {
+                position: relative;
+                margin-top: 40px;
+                font-size: 15px;
+                padding-inline-start: 32px;
+                color: #ccc;
+                &::before {
+                    position: absolute;
+                    content: "";
+                    left: 0;
+                    top: calc(50% - 2px);
+                    width: 40px;
+                    height: 2px;
+                    background-color: #ccc;
+                }
+            }
+    
+        }
+    
+        .numbers {
+            position: relative;
+            background-color: #fff;
+            border-radius: 30px;
+            padding: 4vw;
+            box-shadow: 0 94px 94px 0 rgba(0, 0, 0, 0.03);
+            .num-card {
+                position: relative;
+                text-align: center;
+                padding-top: 40px;
+                .shap {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                }
+            }
+        }
+    
+    }
+    
+    @media screen and (max-width: 991px) {
+        .tc-pg-choose-st1 {
+            padding-bottom: 0;
+            .numbers .num-card {
+                margin: 25px 0;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Sylvia aurorani",
+    "role": "SEO Specialist",
+    "image": "/home_2/assets/img/team/1.jpg",
+    "social": [
+      { "name": "fb", "url": "#" },
+      { "name": "in", "url": "#" },
+      { "name": "tw", "url": "#" },
+      { "name": "be", "url": "#" }
+    ]
+  },
+  {
+    "name": "Addison Breatrice",
+    "role": "Marketing Specialist",
+    "image": "/home_2/assets/img/team/2.jpg",
+    "social": [
+      { "name": "fb", "url": "#" },
+      { "name": "in", "url": "#" },
+      { "name": "tw", "url": "#" },
+      { "name": "be", "url": "#" }
+    ]
+  },
+  {
+    "name": "Eceleigh lndy",
+    "role": "Content Creator",
+    "image": "/home_2/assets/img/team/3.jpg",
+    "social": [
+      { "name": "fb", "url": "#" },
+      { "name": "in", "url": "#" },
+      { "name": "tw", "url": "#" },
+      { "name": "be", "url": "#" }
+    ]
+  },
+  {
+    "name": "Febray Evie leo",
+    "role": "Customer Support",
+    "image": "/home_2/assets/img/team/4.jpg",
+    "social": [
+      { "name": "fb", "url": "#" },
+      { "name": "in", "url": "#" },
+      { "name": "tw", "url": "#" },
+      { "name": "be", "url": "#" }
+    ]
+  }
+]

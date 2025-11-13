@@ -1,0 +1,33 @@
+/* --------------- services st2 --------------- */
+.tc-services-st2 {
+    position: relative;
+    padding: 30px 0;
+
+    .service-card {
+        position: relative;
+        text-align: center;
+        padding: 20px 50px;
+        .icon {
+            height: 75px;
+            width: 75px;
+            margin: 0 auto 10px;
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-services-st2 {
+        .service-card {
+            padding: 40px;
+        }
+    }
+}

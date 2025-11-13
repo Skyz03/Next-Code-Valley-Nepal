@@ -1,0 +1,26 @@
+/* --------------- skills st5 --------------- */
+.tc-skills-st5 {
+    position: relative;
+    padding: 75px 0;
+
+    .progress-wrapper {
+        .progress-item {
+            margin-top: 25px;
+            .progress {
+                height: 5px;
+                background-color: transparent;
+                border-radius: 0;
+                .progress-bar {
+                    background-color: #191919;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-skills-st5 {
+        overflow: hidden;
+    }
+}

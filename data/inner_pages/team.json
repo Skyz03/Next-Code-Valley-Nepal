@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "img": "/inner_pages/assets/img/team/1.jpg",
+    "name": "Sylvia aurorani",
+    "role": "SEO Specialist",
+    "social": {
+      "fb": "#",
+      "in": "#",
+      "tw": "#",
+      "be": "#"
+    },
+    "delay": "0.2s"
+  },
+  {
+    "id": 2,
+    "img": "/inner_pages/assets/img/team/2.jpg",
+    "name": "Addison Breatrice",
+    "role": "Marketing Expert",
+    "social": {
+      "fb": "#",
+      "in": "#",
+      "tw": "#",
+      "be": "#"
+    },
+    "delay": "0.4s"
+  },
+  {
+    "id": 3,
+    "img": "/inner_pages/assets/img/team/3.jpg",
+    "name": "Eceleigh lndy",
+    "role": "Developer",
+    "social": {
+      "fb": "#",
+      "in": "#",
+      "tw": "#",
+      "be": "#"
+    },
+    "delay": "0.6s"
+  },
+  {
+    "id": 4,
+    "img": "/inner_pages/assets/img/team/4.jpg",
+    "name": "Febray Evie leo",
+    "role": "Designer",
+    "social": {
+      "fb": "#",
+      "in": "#",
+      "tw": "#",
+      "be": "#"
+    },
+    "delay": "0.8s"
+  }
+]

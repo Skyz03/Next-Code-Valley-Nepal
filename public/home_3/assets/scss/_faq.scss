@@ -1,0 +1,43 @@
+/* --------------- faq st3 --------------- */
+.tc-faq-st3 {
+    position: relative;
+    padding: 50px 0;
+
+    .accordion {
+        .accordion-item {
+            margin-bottom: 20px;
+            background-color: transparent;
+            border: 1px solid #9994;
+            border-radius: 0;
+            .accordion-button {
+                font-size: 24px;
+                padding: 20px 30px;
+                color: #191919;
+                flex-direction: row-reverse;
+                justify-content: flex-end;
+                background-color: transparent;
+                &::after {
+                    background-size: 15px;
+                    margin-left: 0;
+                    margin-right: 10px;
+                }
+            }
+            .accordion-button:not(.collapsed) {
+                box-shadow: none;
+                background-color: transparent;
+            }
+            .accordion-body {
+                padding: 0 30px 30px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-faq-st3 {
+        .img {
+            margin-bottom: 30px;
+        }
+    }
+}

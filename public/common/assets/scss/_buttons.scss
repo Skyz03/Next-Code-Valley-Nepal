@@ -1,0 +1,49 @@
+/* --------------- buttons style --------------- */
+.butn {
+    padding: 15px 35px;
+    transition: all 0.2s ease;
+    position: relative;
+    text-align: center;
+
+    &.md-butn {
+        padding: 10px 25px;
+    }
+
+    &:hover {
+        // box-shadow: inset 0px 0px 50px #0003 , 4px 5px 0 #0005;
+        box-shadow: 4px 5px 0 #0005;
+        box-shadow: 7px 10px 15px #0004;
+        transform: translateY(-2px);
+    }
+
+}
+
+.linear-butn1 {
+    padding: 15px 40px;
+    transition: all 0.2s ease;
+    position: relative;
+    text-align: center;
+    background-image: linear-gradient(0deg, #1b1b1b 0%, #3b3b3b 100%);
+    color: #fff;
+
+    &.md-butn {
+        padding: 10px 25px;
+    }
+
+    &:hover {
+        // box-shadow: inset 0px 0px 50px #0003 , 4px 5px 0 #0005;
+        box-shadow: 4px 5px 0 #0005;
+        box-shadow: 7px 10px 15px #0004;
+        transform: translateY(-2px);
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .butn {
+        padding: 10px 20px;
+        * {
+            font-size: 13px !important;
+        }
+    }
+}

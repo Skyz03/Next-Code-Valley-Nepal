@@ -1,0 +1,171 @@
+/* --------------- about st3 --------------- */
+.tc-about-st3 {
+    position: relative;
+    padding: 75px 0;
+    // overflow: hidden;
+
+    .check-list {
+        font-size: 20px;
+        font-weight: bold;
+        li{
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            color: #191919;
+            .icon {
+                width: 50px;
+                height: 50px;
+                margin-inline-end: 15px;
+                flex-shrink: 0;
+            }
+        }
+    }
+
+    .service-card {
+        position: relative;
+        text-align: center;
+        padding: 30px 20px;
+        border-radius: 30px;
+        background-color: #fff;
+        box-shadow: 0px 94px 94px 0px rgba(0, 0, 0, 0.03);
+        margin-bottom: 25px;
+        .icon {
+            height: 75px;
+            width: 75px;
+            margin: 0 auto 10px;
+        }
+        .title {
+            font-size: 20px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-about-st3 {
+
+    }
+}
+
+
+/* --------------- about st4 --------------- */
+.tc-about-st4 {
+    position: relative;
+    padding: 75px 0;
+    background-image: linear-gradient(to top, #F8FCFE , #f8fcfeb7, transparent);
+
+    .container {
+        position: relative;
+        z-index: 20;
+    }
+
+    .img {
+        position: relative;
+        .main-img {
+            position: relative;
+            z-index: 10;
+        }
+    }
+
+    .check-list {
+        font-size: 20px;
+        font-weight: bold;
+        li{
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+            color: #191919;
+            .icon {
+                width: 50px;
+                height: 50px;
+                margin-inline-end: 15px;
+                flex-shrink: 0;
+            }
+        }
+    }
+
+    .icon-list {
+        font-size: 24px;
+        font-weight: bold;
+        li{
+            display: flex;
+            align-items: center;
+            margin: 30px 0;
+            color: #191919;
+            padding: 20px;
+            background-image: linear-gradient(124deg, #FF5F6D11 22.75%, #FFC37111 72.61%);
+            margin-inline-end: 110px;
+            &:nth-of-type(even){
+                margin-inline-start: 110px;
+                margin-inline-end: 0;
+                background-image: linear-gradient(126deg, #08B25911 22.58%, #F3E51A11 73.54%);
+            }
+            .icon {
+                width: 80px;
+                height: 80px;
+                margin-inline-end: 18px;
+                flex-shrink: 0;
+            }
+        }
+    }
+
+    .bg {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: calc(100% + 280px);
+        max-height: unset;
+        top: -280px;
+    }
+
+    .numbers {
+        position: relative;
+        background-color: #fff;
+        border-radius: 30px;
+        padding: 4vw;
+        box-shadow: 0 94px 94px 0 rgba(0, 0, 0, 0.03);
+        margin-top: 150px;
+        .num-card {
+            position: relative;
+            text-align: center;
+            padding-top: 40px;
+            .shap {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+            }
+        }
+    }
+
+    .line {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-about-st4 {
+        .clients-cards {
+            flex-wrap: wrap;
+            img {
+                margin: 10px;
+            }
+        }
+        .marq-text h2 {
+            font-size: 60px;
+        }
+        .numbers .num-card {
+            margin: 25px 0;
+            .shap {
+                top: -5px;
+            }
+        }
+        .icon-list li {
+            margin: 10px 0 !important;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "category": "Data Analysis",
+    "title": "article data analysis",
+    "img": "/inner_pages/assets/img/cases/case1.jpg",
+    "delay": "0.2s"
+  },
+  {
+    "id": 2,
+    "category": "SEO Marketing",
+    "title": "Offline SEO marketing",
+    "img": "/inner_pages/assets/img/cases/case2.jpg",
+    "delay": "0.4s"
+  },
+  {
+    "id": 3,
+    "category": "Email Marketing",
+    "title": "text email Marketing",
+    "img": "/inner_pages/assets/img/cases/case3.jpg",
+    "delay": "0.6s"
+  },
+  {
+    "id": 4,
+    "category": "Data Analysis",
+    "title": "article data analysis",
+    "img": "/inner_pages/assets/img/cases/case4.jpg",
+    "delay": "0.2s"
+  },
+  {
+    "id": 5,
+    "category": "SEO Marketing",
+    "title": "Offline SEO marketing",
+    "img": "/inner_pages/assets/img/cases/case5.jpg",
+    "delay": "0.4s"
+  },
+  {
+    "id": 6,
+    "category": "Email Marketing",
+    "title": "text email Marketing",
+    "img": "/inner_pages/assets/img/cases/case6.jpg",
+    "delay": "0.6s"
+  },
+  {
+    "id": 7,
+    "category": "Data Analysis",
+    "title": "article data analysis",
+    "img": "/inner_pages/assets/img/cases/case7.jpg",
+    "delay": "0.2s"
+  },
+  {
+    "id": 8,
+    "category": "SEO Marketing",
+    "title": "Offline SEO marketing",
+    "img": "/inner_pages/assets/img/cases/case8.jpg",
+    "delay": "0.4s"
+  },
+  {
+    "id": 9,
+    "category": "Email Marketing",
+    "title": "text email Marketing",
+    "img": "/inner_pages/assets/img/cases/case9.jpg",
+    "delay": "0.6s"
+  }
+]

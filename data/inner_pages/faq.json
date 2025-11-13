@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "question": "What can we do for you with Figma?",
+    "answer": "Fusce eu eros nec felis venenatis fermentum sit amet eget turpis. Integer tempus massa ac arcu sollicitudin sollicitudin Vivamus neque urna, iaculis et orci id, euismod tempor arcu semper congue nulla amet finibus.",
+    "collapsed": true
+  },
+  {
+    "id": 2,
+    "question": "What is the standard size of business cards?",
+    "answer": "Fusce eu eros nec felis venenatis fermentum sit amet eget turpis. Integer tempus massa ac arcu sollicitudin sollicitudin Vivamus neque urna, iaculis et orci id, euismod tempor arcu semper congue nulla amet finibus.",
+    "collapsed": false
+  },
+  {
+    "id": 3,
+    "question": "What can we do you with Photoshop & Figma?",
+    "answer": "Fusce eu eros nec felis venenatis fermentum sit amet eget turpis. Integer tempus massa ac arcu sollicitudin sollicitudin Vivamus neque urna, iaculis et orci id, euismod tempor arcu semper congue nulla amet finibus.",
+    "collapsed": true
+  },
+  {
+    "id": 4,
+    "question": "Do you create one single full home page?",
+    "answer": "Fusce eu eros nec felis venenatis fermentum sit amet eget turpis. Integer tempus massa ac arcu sollicitudin sollicitudin Vivamus neque urna, iaculis et orci id, euismod tempor arcu semper congue nulla amet finibus.",
+    "collapsed": true
+  }
+]

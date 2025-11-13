@@ -1,0 +1,86 @@
+/* --------------- choose st1 --------------- */
+.tc-choose-st1 {
+    position: relative;
+    padding: 120px 0;
+    background-image: url(../img/choose_bg.png);
+    background-size: cover;
+    background-position: bottom;
+
+    .num-line {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: all 3s ease-in-out;
+        &.animated {
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        }
+    }
+
+    .choose-card {
+        display: block;
+        position: relative;
+        margin-bottom: 40px;
+        &:hover {
+            .arrow {
+                color: var(--cr-orange1);
+                &::before {
+                    background-color: var(--cr-orange1);
+                }
+            }
+        }
+
+        .icon {
+            height: 90px;
+            margin-bottom: 30px;
+        }
+
+        .arrow {
+            position: relative;
+            margin-top: 40px;
+            font-size: 15px;
+            padding-inline-start: 32px;
+            color: #ccc;
+            &::before {
+                position: absolute;
+                content: "";
+                left: 0;
+                top: calc(50% - 2px);
+                width: 40px;
+                height: 2px;
+                background-color: #ccc;
+            }
+        }
+
+    }
+
+    .numbers {
+        position: relative;
+        background-color: #fff;
+        border-radius: 30px;
+        padding: 4vw;
+        box-shadow: 0 94px 94px 0 rgba(0, 0, 0, 0.03);
+        .num-card {
+            position: relative;
+            text-align: center;
+            padding-top: 40px;
+            .shap {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-choose-st1 {
+        padding-bottom: 0;
+        .numbers .num-card {
+            margin: 25px 0;
+        }
+    }
+}

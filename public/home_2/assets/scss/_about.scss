@@ -1,0 +1,84 @@
+/* --------------- about st2 --------------- */
+.tc-about-st2 {
+    position: relative;
+    padding: 120px 0;
+
+    .container {
+        position: relative;
+        z-index: 20;
+    }
+
+    .img {
+        position: relative;
+        .main-img {
+            position: relative;
+            z-index: 10;
+        }
+    }
+
+    .check-list {
+        font-size: 20px;
+        font-weight: bold;
+        li{
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+            color: #191919;
+            .icon {
+                width: 50px;
+                height: 50px;
+                margin-inline-end: 15px;
+                flex-shrink: 0;
+            }
+        }
+    }
+
+    .icon-list {
+        font-size: 24px;
+        font-weight: bold;
+        li{
+            display: flex;
+            align-items: center;
+            margin: 30px 0;
+            color: #191919;
+            padding: 20px;
+            background-image: linear-gradient(124deg, #FF5F6D11 22.75%, #FFC37111 72.61%);
+            margin-inline-end: 110px;
+            &:nth-of-type(even){
+                margin-inline-start: 110px;
+                margin-inline-end: 0;
+                background-image: linear-gradient(126deg, #08B25911 22.58%, #F3E51A11 73.54%);
+            }
+            .icon {
+                width: 80px;
+                height: 80px;
+                margin-inline-end: 18px;
+                flex-shrink: 0;
+            }
+        }
+    }
+
+    .bg {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: calc(100% + 280px);
+        max-height: unset;
+        top: -280px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-about-st2 {
+        .clients-cards {
+            flex-wrap: wrap;
+            img {
+                margin: 10px;
+            }
+        }
+        .marq-text h2 {
+            font-size: 60px;
+        }
+    }
+}

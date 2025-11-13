@@ -1,0 +1,22 @@
+/* --------------- video st3 --------------- */
+.tc-video-st3 {
+    position: relative;
+    padding: 75px 0 0;
+
+    .vid-img {
+        display: block;
+        width: 100%;
+        img {
+            display: block;
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-video-st3 {
+
+    }
+}

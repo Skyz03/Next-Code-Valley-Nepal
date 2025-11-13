@@ -1,0 +1,50 @@
+/* --------------- partners st3 --------------- */
+.tc-partners-st3 {
+    position: relative;
+    padding: 75px 0;
+
+    .logos {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        .img {
+            margin: 30px 20px;
+            img {
+                max-width: 150px;
+                max-height: 50px;
+            }
+        }
+    }
+
+    .part-text {
+        position: relative;
+        &::after {
+            position: absolute;
+            content: "";
+            left: 10%;
+            top: 50%;
+            height: 1px;
+            width: 80%;
+            background-color: #EEEEEE;
+        }
+        .text {
+            font-size: 16px;
+            padding: 5px 30px;
+            position: relative;
+            z-index: 10;
+            background-color: #fff;
+            display: block;
+            width: max-content;
+            margin: auto;
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-partners-st3 {
+
+    }
+}

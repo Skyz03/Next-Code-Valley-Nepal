@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "number": "12k",
+    "description": "Projects Completed",
+    "icon": "/inner_pages/assets/img/icons/num1.svg",
+    "delay": "0.2s"
+  },
+  {
+    "id": 2,
+    "number": "98%",
+    "description": "Happy Clients",
+    "icon": "/inner_pages/assets/img/icons/num2.svg",
+    "delay": "0.4s"
+  },
+  {
+    "id": 3,
+    "number": "28+",
+    "description": "Field Experience",
+    "icon": "/inner_pages/assets/img/icons/num3.svg",
+    "delay": "0.6s"
+  },
+  {
+    "id": 4,
+    "number": "8K",
+    "description": "Customer Reviews",
+    "icon": "/inner_pages/assets/img/icons/num4.svg",
+    "delay": "0.8s"
+  }
+]

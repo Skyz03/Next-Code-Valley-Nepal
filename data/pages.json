@@ -1,0 +1,72 @@
+[
+  {
+    "link": "/inner_pages/about",
+    "img": "/landing_page/assets/img/pages/about.jpg",
+    "name": "About Us"
+  },
+  {
+    "link": "/inner_pages/blog",
+    "img": "/landing_page/assets/img/pages/blog.jpg",
+    "name": "Blog"
+  },
+  {
+    "link": "/inner_pages/contact",
+    "img": "/landing_page/assets/img/pages/contact.jpg",
+    "name": "Contact"
+  },
+  {
+    "link": "/inner_pages/faq",
+    "img": "/landing_page/assets/img/pages/faq.jpg",
+    "name": "FAQ"
+  },
+  {
+    "link": "/inner_pages/post",
+    "img": "/landing_page/assets/img/pages/post.jpg",
+    "name": "Post"
+  },
+  {
+    "link": "/inner_pages/price_table",
+    "img": "/landing_page/assets/img/pages/pricing.jpg",
+    "name": "Pricing"
+  },
+  {
+    "link": "/inner_pages/project_det",
+    "img": "/landing_page/assets/img/pages/project_det.jpg",
+    "name": "Project Details"
+  },
+  {
+    "link": "/inner_pages/cases",
+    "img": "/landing_page/assets/img/pages/projects.jpg",
+    "name": "Projects"
+  },
+  {
+    "link": "/inner_pages/service_det",
+    "img": "/landing_page/assets/img/pages/service_det.jpg",
+    "name": "Service Details"
+  },
+  {
+    "link": "/inner_pages/services",
+    "img": "/landing_page/assets/img/pages/services.jpg",
+    "name": "Services"
+  },
+  {
+    "link": "/inner_pages/shop",
+    "img": "/landing_page/assets/img/pages/shop.jpg",
+    "name": "Shop"
+  },
+  {
+    "link": "/inner_pages/single_product",
+    "img": "/landing_page/assets/img/pages/single_product.jpg",
+    "name": "Single Product"
+  },
+  {
+    "link": "/inner_pages/team",
+    "img": "/landing_page/assets/img/pages/team.jpg",
+    "name": "Team"
+  },
+  {
+    "link": "/inner_pages/testimonials",
+    "img": "/landing_page/assets/img/pages/testimonials.jpg",
+    "name": "Testimonials"
+  }
+]

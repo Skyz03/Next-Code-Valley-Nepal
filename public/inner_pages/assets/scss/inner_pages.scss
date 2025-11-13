@@ -1,0 +1,123 @@
+/* ========= [ * page-home_2 ]  =========*/
+
+// side_menu
+@import "side_menu";
+
+// inner_pages
+@import "inner_header";
+
+// about page
+@import "about_pg";
+
+// services page
+@import "services_pg";
+
+// service details page
+@import "service_det";
+
+// team page
+@import "team_pg";
+
+// cases page
+@import "cases_pg";
+
+// case details page
+@import "case_det_pg";
+
+// testimonials page
+@import "testimonials";
+
+// faq page
+@import "faq_pg";
+
+// price table page
+@import "price_table_pg";
+
+// shop page
+@import "shop_pg";
+
+// shop details page
+@import "shop_det_pg";
+
+// post page
+@import "post_pg";
+
+// contact page
+@import "contact_pg";
+
+// ------------ inner pages style 1 ------------
+.inner-pages-st1 {
+  .swiper-pagination {
+    bottom: 0;
+    text-align: start;
+    .swiper-pagination-bullet {
+      width: 5px;
+      height: 5px;
+      background-color: #000;
+      margin: 10px;
+      opacity: 1;
+      &.swiper-pagination-bullet-active {
+        outline: 1px solid var(--cr-orange1);
+        background-color: var(--cr-orange1);
+        outline-offset: 8px;
+      }
+    }
+  }
+
+  .join {
+    position: relative;
+    padding-top: 50px;
+    text-align: center;
+    .lg-txt {
+      font-size: calc(6vw + 30px);
+      opacity: 0.1;
+      font-weight: bold;
+    }
+    .butn-cir {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      color: #fff;
+      background-image: var(--ln-orange1);
+      margin: -70px auto 0;
+      position: relative;
+      z-index: 20;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .home-st1 {
+    br {
+      display: none;
+    }
+    .fsz-50 {
+      font-size: 30px !important;
+    }
+    .fsz-45 {
+      font-size: 25px !important;
+    }
+
+    .fsz-40 {
+      font-size: 25px !important;
+    }
+    .mb-90 {
+      margin-bottom: 40px !important;
+    }
+    .fsz-30 {
+      font-size: 18px !important;
+    }
+
+    .mb-50 {
+      margin-bottom: 30px !important;
+    }
+
+    .mt-5 {
+      margin-top: 2rem !important;
+    }
+  }
+}

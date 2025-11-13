@@ -1,0 +1,67 @@
+/* --------------- blog st2 --------------- */
+.tc-case-st2 {
+    position: relative;
+    padding: 120px 0;
+    overflow: hidden;
+
+
+    @media screen and (min-width: 991px) {
+        .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+            max-width: 1510px;
+        }
+    }
+
+    .cases-slider {
+        padding-bottom: 80px;
+    }
+
+    .case-card {
+        position: relative;
+        background-color: #fff;
+        border-radius: 30px;
+        overflow: hidden;
+        box-shadow: 0 94px 94px 0 rgba(0, 0, 0, 0.03);
+        &:hover {
+            .img {
+                .float-arrow {
+                    opacity: 1;
+                    transform: scale(1);
+                }
+            }
+        }
+        .img {
+            display: block;
+            position: relative;
+            height: 450px;
+            border-radius: 30px;
+            overflow: hidden;
+            .float-arrow {
+                position: absolute;
+                left: calc(50% - 50px);
+                top: calc(50% - 50px);
+                transform: scale(0.7);
+                width: 100px;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                background-image: var(--ln-orange1);
+                color: #fff;
+                font-size: 30px;
+                opacity: 0;
+                transition: all 0.3s ease;
+            }
+        }
+        .info {
+            padding: 30px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-case-st2 {
+
+    }
+}

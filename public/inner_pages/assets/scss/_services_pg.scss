@@ -1,0 +1,318 @@
+.services-pg-st1 {
+
+
+    /* --------------- services st2 --------------- */
+    .tc-pg-services-st2 {
+        position: relative;
+        padding: 30px 0;
+
+        .shap {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 55%;
+            object-fit: cover;
+            object-position: top;
+        }
+
+        .service-card {
+            position: relative;
+            text-align: center;
+            padding: 20px 50px;
+            z-index: 20;
+            .icon {
+                height: 75px;
+                width: 75px;
+                margin: 0 auto 10px;
+            }
+            p {
+                font-size: 16px;
+                margin-bottom: 20px;
+            }
+            .title {
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+        }
+
+    }
+
+    @media screen and (max-width: 991px) {
+        .tc-pg-services-st2 {
+            .service-card {
+                padding: 40px;
+            }
+        }
+    }
+
+
+    /* --------------- about st1 --------------- */
+    .tc-pg-about-st2-1 {
+        position: relative;
+        padding: 120px 0;
+        background-image: linear-gradient(to right, #FFF7F8, #FFFCF8);
+
+        .container {
+            position: relative;
+            z-index: 20;
+        }
+
+        .img {
+            position: relative;
+            .main-img {
+                position: relative;
+                z-index: 10;
+            }
+            .sub-img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 2;
+            }
+        }
+
+
+        .clients-cards {
+            background-color: #fff;
+            border-radius: 30px;
+            box-shadow: 0 94px 94px 0 rgba(0, 0, 0, 0.03);
+            display: flex;
+            justify-content: space-between;
+            padding: 4vw;
+            margin-top: 130px;
+            img{
+                height: 50px;
+                width: 150px;
+                object-fit: contain;
+            }
+        }
+
+        .line {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            transition: all 3s ease-in-out;
+            &.animated {
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            }
+        }
+
+    }
+
+    @media screen and (max-width: 991px) {
+        .tc-pg-about-st2-1 {
+            .clients-cards {
+                flex-wrap: wrap;
+                img {
+                    margin: 10px;
+                }
+            }
+            .marq-text h2 {
+                font-size: 60px;
+            }
+        }
+    }
+
+
+    /* --------------- about st2 --------------- */
+    .tc-pg-about-st2-2 {
+        position: relative;
+        padding: 75px 0;
+
+        .container {
+            position: relative;
+            z-index: 20;
+        }
+
+        .img {
+            position: relative;
+            .main-img {
+                position: relative;
+                z-index: 10;
+            }
+        }
+
+        .check-list {
+            font-size: 20px;
+            font-weight: bold;
+            li{
+                display: flex;
+                align-items: center;
+                margin-top: 30px;
+                color: #191919;
+                .icon {
+                    width: 50px;
+                    height: 50px;
+                    margin-inline-end: 15px;
+                    flex-shrink: 0;
+                }
+            }
+        }
+
+        .icon-list {
+            font-size: 24px;
+            font-weight: bold;
+            li{
+                display: flex;
+                align-items: center;
+                margin-top: 30px;
+                color: #191919;
+                padding: 20px;
+                margin-inline-end: 110px;
+                background-image: linear-gradient(126deg, #08B25911 22.58%, #F3E51A11 73.54%);
+                font-size: 21px;
+                &:nth-of-type(odd){
+                    margin-inline-start: 110px;
+                    margin-inline-end: 0;
+                }
+                &:nth-of-type(1){
+                    background-image: linear-gradient(124deg, #FF5F6D11 22.75%, #FFC37111 72.61%);
+                    margin-top: 0;
+                }
+                &:nth-of-type(3){
+                    background-image: linear-gradient(124deg, #7E8FFF11 22.75%, #92EFFD11 72.61%);
+                }
+                .icon {
+                    width: 80px;
+                    height: 80px;
+                    margin-inline-end: 18px;
+                    flex-shrink: 0;
+                }
+            }
+        }
+
+        .bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 50%;
+            object-fit: cover;
+            object-position: bottom;
+        }
+
+    }
+
+
+    /* --------------- team st2 --------------- */
+    .tc-pg-team-st2 {
+        position: relative;
+        padding: 75px 0;
+        // background-image: linear-gradient(to right, #FFF7F7, #FFFCF8);
+    
+        .cards {
+    
+            .row {
+                .col-lg-3 {
+                    &:nth-of-type(1){
+                        .team-card {
+                            .info {
+                                .social-icons {
+                                    background-image: var(--ln-orange1);
+                                    -webkit-background-clip: text;
+                                    -webkit-text-fill-color: transparent;
+                                }
+                            }
+                        }
+                    }
+                    &:nth-of-type(2){
+                        .team-card {
+                            .info {
+                                .social-icons {
+                                    background-image: var(--ln-green1);
+                                    -webkit-background-clip: text;
+                                    -webkit-text-fill-color: transparent;
+                                }
+                            }
+                        }
+                    }
+                    &:nth-of-type(3){
+                        .team-card {
+                            .info {
+                                .social-icons {
+                                    background-image: var(--ln-blue1);
+                                    -webkit-background-clip: text;
+                                    -webkit-text-fill-color: transparent;
+                                }
+                            }
+                        }
+                    }
+                    &:nth-of-type(4){
+                        .team-card {
+                            .info {
+                                .social-icons {
+                                    background-image: var(--ln-purple1);
+                                    -webkit-background-clip: text;
+                                    -webkit-text-fill-color: transparent;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .team-card {
+                position: relative;
+                border-radius: 30px;
+                overflow: hidden;
+                box-shadow: 0px 94px 94px 0px rgba(0, 0, 0, 0.05);
+                background-color: #fff;
+                .img {
+                    height: 350px;
+                    border-radius: 30px;
+                    overflow: hidden;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+                .info {
+                    padding: 25px;
+                    .social-icons {
+                        margin-top: 15px;
+                        background-image: var(--ln-orange1);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        a {
+                            font-size: 16px;
+                            font-weight: bold;
+                            margin-inline-end: 20px;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .clients-cards {
+            background-color: #fff;
+            border-radius: 30px;
+            box-shadow: 0 94px 94px 0 rgba(0, 0, 0, 0.03);
+            display: flex;
+            justify-content: space-between;
+            padding: 4vw;
+            margin-top: 130px;
+            img{
+                height: 50px;
+                width: 150px;
+                object-fit: contain;
+            }
+        }
+    
+    }
+    
+    @media screen and (max-width: 991px) {
+        .tc-pg-team-st1 {
+            .cards {
+                .team-card {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+
+
+}

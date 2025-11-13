@@ -1,0 +1,98 @@
+/* --------------- about st1 --------------- */
+.tc-about-st1 {
+    position: relative;
+    padding: 120px 0;
+
+    .container {
+        position: relative;
+        z-index: 20;
+    }
+
+    .img {
+        position: relative;
+        .main-img {
+            position: relative;
+            z-index: 10;
+        }
+        .sub-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2;
+        }
+    }
+
+
+    .clients-cards {
+        background-color: #fff;
+        border-radius: 30px;
+        box-shadow: 0 94px 94px 0 rgba(0, 0, 0, 0.03);
+        display: flex;
+        justify-content: space-between;
+        padding: 4vw;
+        margin-top: 130px;
+        img{
+            height: 50px;
+            width: 150px;
+            object-fit: contain;
+        }
+    }
+
+    .marq-text {
+        position: relative;
+        overflow: hidden;
+        margin-top: 250px;
+
+        .swiper-wrapper {
+            -webkit-transition-timing-function: linear !important;
+            transition-timing-function: linear !important;
+            position: relative;
+        }
+         .swiper-slide{
+            width: max-content !important;
+         }
+
+        h2 {
+            font-size: 120px;
+            white-space: nowrap;
+        }
+
+    }
+
+    .line {
+        position: absolute;
+        left: 0;
+        bottom: 300px;
+        width: 100%;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: all 3s ease-in-out;
+        &.animated {
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        }
+    }
+
+    .bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: calc(100% + 600px);
+        max-height: unset;
+        top: -500px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-about-st1 {
+        .clients-cards {
+            flex-wrap: wrap;
+            img {
+                margin: 10px;
+            }
+        }
+        .marq-text h2 {
+            font-size: 60px;
+        }
+    }
+}

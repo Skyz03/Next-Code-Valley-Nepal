@@ -1,0 +1,83 @@
+/* --------------- footer st1 --------------- */
+.tc-inner-header-st1 {
+    position: relative;
+    padding: 150px 0 200px;
+
+    .container {
+        position: relative;
+        z-index: 20;
+    }
+
+    .links {
+        position: relative;
+        padding-inline-start: 30px;
+        &::before {
+            position: absolute;
+            content: "\f061";
+            font-family: "Font Awesome 6 Pro";
+            left: 0;
+            top: 2px;
+            color: var(--cr-orange1);
+            font-size: 18px;
+        }
+        a {
+            position: relative;
+            font-size: 18px;
+            padding-inline-end: 25px;
+            margin-inline-end: 10px;
+            color: var(--cr-orange1);
+            text-transform: capitalize;
+            &::after {
+                position: absolute;
+                content: "\2f";
+                font-family: "Font Awesome 6 Pro";
+                top: 0;
+                right: 0;
+            }
+            &:last-of-type {
+                color: #000;
+                &::after {
+                    display: none;
+                }
+            }
+        }
+    }
+    
+    h1 {
+        font-size: 82px;
+        margin-top: 20px;
+    }
+
+    .shap1 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: calc(100% + 100px);
+        max-height: unset;
+        z-index: 2;
+        object-fit: cover;
+        object-position: bottom;
+    }
+
+    .shap2 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: calc(100% + 100px);
+        max-height: unset;
+        object-fit: cover;
+        object-position: bottom;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-inner-header-st1 {
+        padding: 100px 0;
+        h1 {
+            font-size: 40px;
+        }
+    }
+}

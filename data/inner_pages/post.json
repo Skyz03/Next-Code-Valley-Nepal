@@ -1,0 +1,48 @@
+{
+  "comments": [
+    {
+      "name": "Monsur Rahman Lito",
+      "image": "/inner_pages/assets/img/team/4.jpg",
+      "text": "Phasellus ac consequat turpis, sit amet fermentum nulla. Donec dignissim augue nunc. Praesent bibendum erat ac lectus lobortis."
+    },
+    {
+      "name": "Towkibur Rahman",
+      "image": "/inner_pages/assets/img/team/3.jpg",
+      "text": "Phasellus ac consequat turpis, sit amet fermentum nulla. Donec dignissim augue nunc. Praesent bibendum erat ac lectus lobortis."
+    }
+  ],
+  "services": [
+    "UX strategy",
+    "Information architecture",
+    "Prototyping",
+    "Wireframing",
+    "UI Design",
+    "Figma Design"
+  ],
+  "recentNews": [
+    {
+      "author": "Noile",
+      "comments": 2,
+      "title": "Integer vehicula diam sllicitudin scelerisque. Vestib pellent.",
+      "image": "/inner_pages/assets/img/posts/1.jpg"
+    },
+    {
+      "author": "Noile",
+      "comments": 2,
+      "title": "Integer vehicula diam sllicitudin scelerisque. Vestib pellent.",
+      "image": "/inner_pages/assets/img/posts/2.jpg"
+    },
+    {
+      "author": "Noile",
+      "comments": 2,
+      "title": "Integer vehicula diam sllicitudin scelerisque. Vestib pellent.",
+      "image": "/inner_pages/assets/img/posts/3.jpg"
+    }
+  ],
+  "socialLinks": [
+    { "name": "Facebook", "icon": "fab fa-facebook-f" },
+    { "name": "Twitter", "icon": "fab fa-twitter" },
+    { "name": "Instagram", "icon": "fab fa-instagram" },
+    { "name": "Pinterest", "icon": "fab fa-pinterest-p" }
+  ]
+}

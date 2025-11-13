@@ -1,0 +1,143 @@
+/* --------------- footer st5 --------------- */
+.tc-footer-st5 {
+    position: relative;
+    background-color: #111;
+    color: #fff;
+        
+    .bg-curves {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 80px);
+    }
+
+    .foot-shaps {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .main-content {
+        position: relative;
+        padding: 150px 0 85px;
+        border-bottom: 1px solid #fff2;
+    }
+
+    .foot-info {
+        .logo {
+            height: 45px;
+            margin-bottom: 15px;
+        }
+    }
+
+    .foot-card {
+        position: relative;
+        border-radius: 10px;
+        background-image: var(--ln-orange1);
+        color: #fff;
+        .inf {
+            position: relative;
+            padding: 20px;
+            p {
+                line-height: 1.4;
+                margin-top: 10px;
+            }
+        }
+        .butn {
+            padding: 10px 20px;
+        }
+    }
+
+    .links-side {
+        position: relative;
+        .ltr-shap {
+            position: absolute;
+            top: -150px;
+            right: 0;
+            width: 45%;
+        }
+    }
+
+    .links-wrapper {
+        position: relative;
+        z-index: 10;
+    }
+
+    .links-group {
+        .links {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            li{
+                width: 100%;
+                a {
+                    font-size: 16px;
+                    color: #fff;
+                    margin-bottom: 15px;
+                    opacity: 0.6;
+                    &:hover {
+                        color: var(--cr-orange1);
+                        opacity: 1;
+                    }
+                }
+            }
+            &.links-half {
+                li {
+                    width: 50%;
+                }
+            }
+        }
+    }
+
+    .text {
+        color: #fff !important;
+        opacity: 0.6;
+    }
+
+    .social-wrapper {
+        position: relative;
+        padding: 30px 0;
+        margin-top: 50px;
+        border-top: 1px solid #9994;
+        z-index: 10;
+    }
+
+    .social-links {
+        a {
+            width: 40px;
+            height: 40px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #9992;
+            border-radius: 50%;
+            color: #666;
+            font-size: 14px;
+            margin-inline-end: 20px;
+            &:hover {
+                background-color: var(--cr-orange1);
+                color: #fff;
+            }
+        }
+    }
+
+    .foot {
+        position: relative;
+        z-index: 20;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-footer-st5 {
+        overflow: hidden;
+        .bg-curves {
+            display: none;
+        }
+        .main-content {
+            padding: 75px 0;
+        }
+    }
+}

@@ -1,0 +1,85 @@
+/* --------------- testimonials st5 --------------- */
+.tc-testimonials-st5 {
+    position: relative;
+    padding: 75px 0;
+
+    .bg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+
+    .testi-card {
+        position: relative;
+        border-radius: 30px;
+        background: #FFF;
+        box-shadow: 0px 94px 94px 0px rgba(0, 0, 0, 0.03);
+        z-index: 20;
+        margin-top: 30px;
+        .avatar {
+            position: absolute;
+            right: 30px;
+            top: 0;
+            transform: translateY(-50%);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .user-rate {
+            display: flex;
+            align-items: center;
+            padding: 40px 30px 30px;
+            .icon {
+                height: 30px;
+                margin-inline-end: 20px;
+                flex-shrink: 0;
+            }
+            .stars {
+                display: inline-block;
+                background-image: var(--ln-orange1);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            p {
+                font-size: 16px;
+                color: #5B5B5B;
+                margin-bottom: 5px;
+            }
+        }
+        .info {
+            padding: 0 30px 20px;
+        }
+        .main-text {
+            font-size: 24px;
+            margin-bottom: 20px;
+            font-weight: 500;
+            line-height: 1.6;
+        }
+        .user-info {
+            position: relative;
+            padding: 25px 30px;
+            background-image: linear-gradient(124deg, #FF5F6D10 22.75%, #FFC37110 72.61%);
+            border-radius: 0 0 30px 30px;
+            h6 {
+                font-size: 24px;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+            p {
+                font-size: 16px;
+                color: #5B5B5B;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-testimonials-st5 {
+        .testi-card {
+            margin-top: 50px;
+        }
+    }
+}

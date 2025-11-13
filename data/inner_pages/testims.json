@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "rating": 5.0,
+    "text": "Nullam sit amet sem metus. Nam nec metus eudia viverra nec nibh. Donec euismod malesuada, quis egestas eget. Vivamus quam erat, sollicitudin.",
+    "name": "Hasmi kal bidge",
+    "role": "Head of UI/UX Designer",
+    "img": "/inner_pages/assets/img/icons/qoat.svg"
+  },
+  {
+    "id": 2,
+    "rating": 5.0,
+    "text": "Nullam sit amet sem metus. Nam viverra nec nibh. Donec euismod egestas eget Vivamus.",
+    "name": "Hasmi kal bidge",
+    "role": "Head of UI/UX Designer",
+    "img": "/inner_pages/assets/img/icons/qoat.svg"
+  },
+  {
+    "id": 3,
+    "rating": 5.0,
+    "text": "Nullam sit amet sem metus. Nam nec metus eudia viverra nec nibh. Donec euismod malesuada, quis egestas eget. Vivamus quam erat, sollicitudin.",
+    "name": "Hasmi kal bidge",
+    "role": "Head of UI/UX Designer",
+    "img": "/inner_pages/assets/img/icons/qoat.svg"
+  },
+  {
+    "id": 4,
+    "rating": 5.0,
+    "text": "Nullam sit amet sem metus. Nam viverra nec nibh. Donec euismod egestas eget Vivamus.",
+    "name": "Hasmi kal bidge",
+    "role": "Head of UI/UX Designer",
+    "img": "/inner_pages/assets/img/icons/qoat.svg"
+  }
+]

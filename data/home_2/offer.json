@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "/home_2/assets/img/icons/ch1.svg",
+    "title": "Digital Services",
+    "description": "Nullam vel metus mattis, vulputate sapien sit amet, luctus erat. Donec gravida sed mauris.",
+    "delay": "0.2s",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "icon": "/home_2/assets/img/icons/ch2.svg",
+    "title": "IT Consultancy",
+    "description": "Nullam vel metus mattis, vulputate sapien sit amet, luctus erat. Donec gravida sed mauris.",
+    "delay": "0.4s",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "icon": "/home_2/assets/img/icons/ch3.svg",
+    "title": "Dedicated Service Solution",
+    "description": "Nullam vel metus mattis, vulputate sapien sit amet, luctus erat. Donec gravida sed mauris.",
+    "delay": "0.6s",
+    "link": "#"
+  }
+]

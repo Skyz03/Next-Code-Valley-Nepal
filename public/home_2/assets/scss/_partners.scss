@@ -1,0 +1,27 @@
+/* --------------- partners st2 --------------- */
+.tc-partners-st2 {
+    position: relative;
+    padding: 100px 0;
+
+    .logos {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        .img {
+            margin: 20px;
+            img {
+                max-width: 150px;
+                max-height: 50px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-partners-st2 {
+
+    }
+}

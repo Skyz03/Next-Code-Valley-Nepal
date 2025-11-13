@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "imgSrc": "/home_2/assets/img/case1.jpg",
+    "tag": "Data Analysis",
+    "title": "article data analysis news template",
+    "link": "/inner_pages/single_product"
+  },
+  {
+    "id": 2,
+    "imgSrc": "/home_2/assets/img/case2.jpg",
+    "tag": "SEO Marketing",
+    "title": "Offline SEO marketing services",
+    "link": "/inner_pages/single_product"
+  },
+  {
+    "id": 3,
+    "imgSrc": "/home_2/assets/img/case3.jpg",
+    "tag": "Email Marketing",
+    "title": "30+ Countries email Marketing",
+    "link": "/inner_pages/single_product"
+  },
+  {
+    "id": 4,
+    "imgSrc": "/home_2/assets/img/case4.jpg",
+    "tag": "Content Writing",
+    "title": "Countries email Marketing",
+    "link": "/inner_pages/single_product"
+  }
+]

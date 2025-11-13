@@ -1,0 +1,99 @@
+/* --------------- header st5 --------------- */
+.tc-header-st5 {
+    position: relative;
+    padding: 50px 0 100px;
+    background-image: url(../img/head_bg.png);
+    background-size: cover;
+    background-position: bottom;
+
+    .head-cir {
+        position: absolute;
+        top: calc(50% - 200px);
+        right: 0;
+        height: 400px;
+        max-height: 40vw;
+    }
+
+    .info {
+        position: relative;
+        z-index: 20;
+        h1 {
+            font-size: 80px;
+        }
+        .btns {
+            display: flex;
+            align-items: center;
+            .play-btn {
+                display: inline-flex;
+                align-items: center;
+                margin-inline-start: 30px;
+                .icon {
+                    width: 60px;
+                    height: 60px;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    margin-inline-end: 10px;
+                    background-image: var(--ln-blue1);
+                    color: #fff;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .img {
+        position: relative;
+        width: calc(100% + 120px);
+        margin-inline-start: -60px;
+        &::before {
+            position: absolute;
+            content: "";
+            left: -50px;
+            top: 120px;
+            width: 320px;
+            height: 320px;
+            background-color: #fff;
+            border-radius: 50%;
+        }
+        .main-img {
+            position: relative;
+            z-index: 20;
+        }
+    }
+
+    .clients {
+        position: relative;
+        padding-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 -50px;
+        .logo {
+            margin: 30px 50px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-header-st5 {
+        overflow: hidden;
+        .info {
+            h1 {
+                font-size: 40px;
+                margin-bottom: 20px;
+            }
+        }
+        .clients {
+            margin: 0;
+            flex-wrap: wrap;
+            .logo {
+                margin: 0;
+                width: 50%;
+                padding: 20px 30px;
+            }
+        }
+    }
+}

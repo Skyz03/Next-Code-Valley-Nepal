@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Integer vehicula diam sllicitudin scelerisque. Vestib pellent.",
+    "image": "/home_2/assets/img/blog1.jpg",
+    "author": "tanvir alom",
+    "comments": "02",
+    "date": "12 /Aug",
+    "link": "/inner_pages/post",
+    "color": "bg-ln-orange1"
+  },
+  {
+    "title": "Integer vehicula diam sllicitudin scelerisque. Vestib pellent.",
+    "image": "/home_2/assets/img/blog2.jpg",
+    "author": "tanvir alom",
+    "comments": "02",
+    "date": "12 /Aug",
+    "link": "/inner_pages/post",
+    "color": "bg-ln-green1"
+  },
+  {
+    "title": "Integer vehicula diam sllicitudin scelerisque. Vestib pellent.",
+    "image": "/home_2/assets/img/blog3.jpg",
+    "author": "tanvir alom",
+    "comments": "02",
+    "date": "12 /Aug",
+    "link": "/inner_pages/post",
+    "color": "bg-ln-blue1"
+  }
+]
