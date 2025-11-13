@@ -6,10 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint ."
   },
   "dependencies": {
     "eslint-config-next": "16.0.1",
+    "eslint-config-prettier": "^10.1.8",
     "gsap": "^3.12.5",
     "next": "16.0.1",
     "react": "19.2.0",
